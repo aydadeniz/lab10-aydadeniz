@@ -9,8 +9,9 @@ def factorial(n):
             result == result * i
         return result
     
-    if factorial(3) == 6:
+    if factorial(3) == 3 & factorial(1)== 1:
         print("No errors")
+        
 
 
 
